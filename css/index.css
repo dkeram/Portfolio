@@ -19,8 +19,9 @@ body{
     margin-top: 200px;
 }
 
-#about,h1{
+h1{
     font-style: bold;
+    color:orange;
 }
 
 .profile{
@@ -30,7 +31,16 @@ body{
     margin-left:200px;
 }
 
+#projects{
+    margin-top: 200px;
+
+}
 .list-group-item{
     background-color:transparent;
     color:white;
+    font-style: bold;
+}
+
+#cv{
+    margin-top:200px;
 }
