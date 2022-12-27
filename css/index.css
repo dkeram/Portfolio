@@ -4,7 +4,7 @@ body{
     background-color: black;
     background-position: center;
     color:white;
-
+    font-family: cursive;
 }
 
 #social-links{
@@ -12,5 +12,25 @@ body{
 }
 
 .fa-brands, .fa-solid{
+    color:white;
+}
+
+#about{
+    margin-top: 200px;
+}
+
+#about,h1{
+    font-style: bold;
+}
+
+.profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-left:200px;
+}
+
+.list-group-item{
+    background-color:transparent;
     color:white;
 }
