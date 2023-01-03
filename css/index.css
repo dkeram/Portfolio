@@ -43,6 +43,15 @@ h1{
     font-style: bold;
 }
 
+h4{
+    margin-top: 20px;
+    font-family: 'Plus Jakarta Sans';
+}
+
 #cv{
     margin-top:200px;
+}
+
+#cv , a{
+    color:white;
 }
