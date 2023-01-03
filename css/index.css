@@ -5,11 +5,11 @@ body{
     background-position: center;
     color:white;
     font-family: 'Clinton';
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #social-links{
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .fa-brands, .fa-solid{
@@ -17,7 +17,7 @@ body{
 }
 
 #about{
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 h1{
@@ -34,7 +34,7 @@ h1{
 }
 
 #projects{
-    margin-top: 200px;
+    margin-top: 100px;
 
 }
 .list-group-item{
@@ -42,14 +42,16 @@ h1{
     color:white;
     font-style: bold;
 }
-
-h4{
+#progress{
+    margin-top: 100px;
+}
+#progress h4{
     margin-top: 20px;
     font-family: 'Plus Jakarta Sans';
 }
 
 #cv{
-    margin-top:200px;
+    margin-top:100px;
 }
 
 #cv , a{
