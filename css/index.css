@@ -8,6 +8,32 @@ body{
     font-size: 22px;
 }
 
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
+  }
+
+#msg{
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .5s step-end infinite;
+}
+
+#welcome{
+    margin-top: 100px;
+}
+
 #social-links{
     margin-top: 50px;
 }
