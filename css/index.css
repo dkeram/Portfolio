@@ -70,15 +70,15 @@ h1{
     font-style: italic;
     color:beige
 }
-.list-group-item{
-    background-color:rgba(143, 139, 139, 0.212);
-    color:white;
-    font-style: bold;
+
+.card{
+    background-color:transparent;
 }
-.list-group-item:hover{
-    background-color:rgba(143, 139, 139, 0.212);
-    color:snow;
+
+.text-muted{
+    color:lightgray;
 }
+
 #tech{
     margin-top: 100px;
 }
